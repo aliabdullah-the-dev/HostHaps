@@ -427,7 +427,6 @@ cite,
     padding-top: 60px;
   }
 }
-
 .pl--0 {
   padding-left: 0;
 }
@@ -23483,6 +23482,68 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .template-dedicated .rts-footer .rts-footer__widget form.newsletter input, .template-cloud .rts-footer .rts-footer__widget form.newsletter input {
   border: 1px solid #EAF1FF;
+}
+
+@media screen and (width < 576px) {
+  .we_support__section {
+    width: 100%;
+  }
+
+  .electronic_frontier__section {
+    width: 100%;
+  }
+
+  .fight_for_future__section {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1122px) {
+  .fbr__section {
+    width: 30%;
+    font-size: 1.2rem;
+  }
+
+  .fbr__section .fbr_image {
+    width: 50%;
+  }
+
+  .payment__section {
+    width: 28%;
+  }
+
+  .apps__section {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 869px) {
+  .rts_footer__payment {
+    padding: 20px 0 12px;
+  }
+
+  .fbr__section {
+    padding: 0 0.7rem;
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .payment__section {
+    padding: 0 0.7rem;
+    margin-bottom: 14px;
+    width: 100%;
+  }
+
+  .payment__section .payment_field {
+    text-align: center !important;
+  }
+
+  .apps__section {
+    padding: 0 0.7rem;
+    margin-bottom: 14px;
+    width: 100%;
+  }
 }
 
 .progress-wrap {
