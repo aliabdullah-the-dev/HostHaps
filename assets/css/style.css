@@ -16926,7 +16926,13 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
   align-items: center;
   transition: var(--transition);
 }
-
+.rounded-5{
+  border-radius: 15px;
+}
+.box-shadow{
+      -webkit-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, .1);
+      box-shadow: 0 1px 7px 0 rgba(0, 0, 0, .1);
+}
 .hover-white {
   background: var(--color-third);
 }
