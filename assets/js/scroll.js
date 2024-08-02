@@ -1,5 +1,7 @@
+// Custom Smooth scroll - Added by AliAbdullah
+
 // Speed factor: Increase to speed up the scroll
-const speedFactor = 3;
+const speedFactor = 2;
 let scrollPosition = window.scrollY;
 let isScrolling = false;
 

@@ -1,4 +1,4 @@
-
+// Custom Cursor - Added by AliAbdullah
 
 document.addEventListener("DOMContentLoaded", () => {
     const cursor = document.querySelector(".cursor");
