@@ -1,0 +1,41 @@
+@keyframes colors {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes colors-fade {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+        scale: 0.5;
+    }
+}
+
+.cursor {
+position: fixed;
+z-index: 2147483647;
+background-color: #0051F0;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+pointer-events: none;
+box-shadow: 0 0 20px #0051F0,0 0 60px #0051F0,0 0 100px #0051F0,;
+transform: translate(-50%,-50%);
+animation: colors 5s infinite;
+}
+.cursor::before {
+    content: '';
+    position: absolute;
+    background-color: #0051F0;
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+    transform: translate(-30%,-30%);
+    border-radius: 50%;
+}
