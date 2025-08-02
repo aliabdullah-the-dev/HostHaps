@@ -1,5 +1,6 @@
 # HostHaps
-HostHaps Frontend
+This is a simple website template for a hosting business to use on WHM or related tools.
+
 
 
 
@@ -7,4 +8,4 @@ HostHaps Frontend
 
 
 ### The Project is live at:
-<https://the-aliabdullah.github.io/HostHaps/>
+<[HostHaps](https://aliabdullah-the-dev.github.io/HostHaps/)>
